@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE RESIZER AND COMPRESSOR BY RufCodings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>
+            IMAGE RESIZER AND COMPRESSOR BY RufCodings
+        </h1>
+        <button id="uploadBtn"> <input type="file" hidden accept="jpeg, png, jpg">Upload an Image</button>
+        <div id="preview">PREVIEW:</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJA32WU4rBpx7maglqeEtt3ot1tPIRWptxA&s" alt="preview image">
+        <span>Image Dimension: 400px * 400px</span>
+        <div id="measurement">
+            <pre>
+                        <label for="unit">UNITS:</label>       <select name="" id="unit"><option value="">PIXELS</select>
+                        <label for="width">WIDTH:</label>       <input type="number" id="width" placeholder="100" value="100" class="w_h"> px
+                        <label for="height">HEIGHT:</label>      <input type="number" placeholder="100" id="height" value="100" class="w_h"> px
+                        <label for="range">QUALITY:</label>    <input type="range" min="1" max="100" value="100" id="range"><span id="demo">100</span>
+            </pre>
+        </div>
+        <button id="resizeBtn" class="btn">Resize and Compress</button>
+        <button id="downloadBtn" class="btn">Download Compressor Image</button>
+        <canvas>aman</canvas>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

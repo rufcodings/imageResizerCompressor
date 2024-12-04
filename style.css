@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#container{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 10px;
+    background-color: burlywood;
+    margin: 10%;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    margin: 1rem;
+}
+
+button{
+    width: 30%;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 35%;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+#preview{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+#measurement{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: x-large;
+}
+
+select{
+    font-size: large;
+}
+
+input{
+    width: 20%;
+    font-size: large;
+}
+
+.btn{
+    width: 30%;
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-bottom: 3%;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 3px;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    margin-left: 26%;
+    margin-bottom: 4%;
+    border: 3px solid black;
+}
+
+span{
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+canvas{
+    width: 0;
+    height: 0;
+}
